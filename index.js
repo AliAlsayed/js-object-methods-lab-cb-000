@@ -23,4 +23,8 @@ class President{
   conductPressInterview(){
     return "I am proud to be an American."
   }
+
+  sayHi(){
+    return `Hi, my name is ${this.name}, I am from ${this.homestate}. I represent the <politcalParty>s and was in office <yearsInOffice>.`
+  }
 }
