@@ -19,4 +19,8 @@ class President{
   doCharity(){
     return "I like to help people."
   }
+
+  conductPressInterview(){
+    return "I am proud to be an American."
+  }
 }
